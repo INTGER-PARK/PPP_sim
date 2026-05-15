@@ -4,6 +4,7 @@
 
 
   <visual>
+   <scale com="0.03"/>
     <headlight diffuse="0.9 0.9 0.9" ambient="0.1 0.1 0.1" specular="0 0 0"/>
     <rgba haze="0.3 0.3 0.3 1"/>
     <global azimuth="45" elevation="35.264" ellipsoidinertia="false"/>

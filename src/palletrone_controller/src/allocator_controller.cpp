@@ -16,7 +16,7 @@ public:
   static constexpr size_t buffer_size = 10;
   static constexpr double deg_to_rad  = M_PI / 180.0;
 
-  static constexpr double lpf_alpha = 0.01;   // LPF for tauz bias
+  static constexpr double lpf_alpha = 1.00;   // LPF for tauz bias
   static constexpr double zeta = 0.02;        // reaction torque coefficient
   static constexpr double k_thrust = 0.02;    // thrust coefficient in thrust = k_thrust * w^2
   static constexpr double r = 0.148492;
